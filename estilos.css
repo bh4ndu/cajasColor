@@ -1,0 +1,89 @@
+.boton {
+	background: red;
+	color: white;
+}
+
+.caja1, .caja2 {
+	width: 50%;
+	float: left;
+	border: 2px solid red;
+	height: 400px;
+}
+
+.caja1 { background: blue; }
+.caja2 { background: orange; }
+
+@media (max-width: 1000px) {
+	.boton {
+		background: blue;
+	}
+}
+
+@media (max-width: 700px) {
+	.boton {
+		background: orange;
+	}
+}
+
+@media (max-width: 500px) {
+	.boton {
+		background: pink;
+	}
+}
+
+.caja1, .caja2 {
+	width: 100%;
+}
+
+.nombre {
+	color: blue;
+	font-size: 40px;
+}
+
+@media (max-width: 1000px) {
+	.nombre {
+		color: green;
+	}
+}
+
+@media (max-width: 800px) {
+	.nombre {
+		color: orange;
+	}
+}
+
+@media (max-width: 500px) {
+	.nombre {
+		color: red;
+		font-size: 20px;
+	}
+}
+
+@media print {
+	.nombre {
+		font-size: 140px;
+	}
+}
+
+.boton {
+	display: none;
+}
+
+.caja3, .caja4, .caja5 {
+	width: 32%;
+	float: left;
+	border: 2px solid red;
+	height: 400px;
+}
+
+.caja3 {
+	background: brown;
+}
+
+.caja4 {
+	background: skyblue;
+}
+
+.caja5 {
+	background: violet;
+}
